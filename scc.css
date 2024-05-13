@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "ribeye";
+    src: url(./Ribeye/Ribeye-Regular.ttf);
+}
+
+.control{
+    width: 1165px;
+    height: 688px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    /* border: 2px solid; */
+}
+.box{
+    display: flex;
+    gap: 20px;
+    padding: 25px 0px;
+}
+.task1{
+    width: 365px;
+    height: 500px;
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    gap: 20px;
+    box-shadow: 0px 0px 5px 5px rgb(202, 202, 202);
+    
+}
+.task2{
+    width: 365px;
+    height: 500px;
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    box-shadow: 0px 0px 5px 5px rgb(202, 202, 202);
+}
+.task3{
+    width: 365px;
+    height: 500px;
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    box-shadow: 0px 0px 5px 5px rgb(202, 202, 202);
+}
+#p1{
+    width: 300px;
+    text-align: center;
+
+}
+.container{
+     width: 100%;
+     padding: 0px 200px;
+
+}
+header{
+    height: 100vh;
+    background-image: url(./img/logo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0px;
+
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+}
+nav ul li{
+    list-style: none;
+    
+}
+nav ul a{
+    text-decoration: none;
+    color: white;
+}
+header button{
+     background: #C9453B;
+     padding: 13px 35px;
+     border: 5px;
+     cursor: pointer;
+     border: none;
+     font-size: 16mpx;
+     color: white;
+}
+header h2{
+    font-size: 35px;
+    color: white;
+    font-family: "ribeye"; 
+}
+header #div1{
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+header #div div:first-child {
+    width: 804px;
+}
+header h1{
+    font-size: 65px;
+    color: white;
+    
+}
+header #div1 div:nth-child(2){
+    width:440px;
+    /* height: 87px; */
+
+}
+header p{
+    font-size: 18px;
+    color:#FFFFFF;
+    opacity: 0.6;
+}
+.contirols{
+   width: 1300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; 
+    margin: auto;
+    /* padding: 20px;    */
+    /* border: 2px solid; */
+}
+
+#p4{
+    width: 490px; 
+    margin: 0px auto;
+    /* align-items: center; */
+    text-align: center;  
+    /* justify-content: center; */
+}
+.border{
+    padding: 20px 20px;
+    display: flex;
+    gap: 30px;
+}
+.blog{
+    width: 265px;
+    height: 334px;
+    /* border: 2px solid; */
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px rgb(202, 202, 202);
+    
+
+}
+#i1{
+    color: #C9453B;
+}
+#i2{
+    color: gold;
+}
+.from-blog{
+    width: 100%;
+    height: 105vh;
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    /* margin: auto; */
+    /* text-align: center; */
+    /* justify-content: center; */
+
+    
+}
+ .from-desc{
+    margin: 0 auto;
+    width: 500px;
+    padding: 20px;
+ }
+
+ .box{
+    display: flex;
+    padding: 0px 20px;
+ }
+.box1{
+    width: 50%;
+    /* border: 2px solid; */
+    padding: 10px 10px;
+    /* display: flex; */
+    /* background-color: aquamarine; */
+
+}
+.box-2{
+    width: 50%;
+    height: 650px;
+    /* border: 2px solid black; */
+    text-align: center;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#h0{
+    text-align: center;
+}
+#h23{
+  padding:30px 10px;
+}
+#p9{
+    padding: 20px 10px;
+}
+.box-itime{
+    display: flex;
+    /* background-color: blue; */
+    /* border: 2px solid;   */
+    text-align: start;
+    gap: 10px;
+}
+
+.imgst{
+    display: flex
+}
+.texts{
+    /* border: 2px solid whitesmoke; */
+    text-align: start;
+    padding: 1px 20px;
+    width: 50%;
+
+}
+#p78{
+    padding: 20px 30px;
+}
+#h12{
+    padding: 10px 30px;
+}
+#p{
+    /* padding: 25px 30px; */
+}

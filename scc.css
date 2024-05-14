@@ -98,8 +98,15 @@ header button{
      border: 5px;
      cursor: pointer;
      border: none;
-     font-size: 16mpx;
+     font-size: 16px;
      color: white;
+     border-radius: 5px;
+}
+#button1{
+    width: 187px;
+    height: 59px;
+    border-radius: 5px;
+    font-size: 16px;
 }
 header h2{
     font-size: 35px;
@@ -111,6 +118,9 @@ header #div1{
     display: flex;
     flex-direction: column;
     gap: 35px;
+}
+header #div1 div:first-child{
+    font-family: "ribeye"; 
 }
 header #div div:first-child {
     width: 804px;
@@ -244,4 +254,63 @@ header p{
 }
 #p{
     /* padding: 25px 30px; */
+}
+footer{
+    width: 1500px;
+    height: 348px;
+    display: flex;
+    border: 2px solid;
+    /* padding: 0px 20px; */
+    margin: auto;
+    background-color: 
+    #d8f3f5;
+}
+.travlent{
+    width: 186px;
+    height: 178px;
+    /* border: 2px solid; */
+    margin: auto;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.about{
+    width: 74px;
+    height: 200px;
+    /* border: 2px solid; */
+    margin: auto;
+}
+.lager{
+    width: 158px;
+    height: 156px;
+    /* border: 2px solid; */
+    margin: auto;
+}
+.inputs{
+    width: 350px;
+    height: 100px;
+    /* border: 2px solid; */
+    margin: auto;
+}
+#h2{
+    font-family: "ribeye"; 
+    
+}
+p{
+    padding: 10px 0px;
+    color: black;
+}
+input{
+    width: 210px;
+    height: 38px;
+    
+  
+}
+button{
+    width: 103px;
+    height: 44px;
+    background-color: #C9453B;
+    color: #FFFFFF;
+    margin: auto;
+    padding: 0px 0px;
+    border-radius: 10px;
 }

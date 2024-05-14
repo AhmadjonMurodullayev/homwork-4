@@ -94,7 +94,7 @@ nav ul a{
 }
 header button{
      background: #C9453B;
-     padding: 13px 35px;
+     padding: 10px 35px;
      border: 5px;
      cursor: pointer;
      border: none;
@@ -305,7 +305,7 @@ input{
     
   
 }
-button{
+#buttons{
     width: 103px;
     height: 44px;
     background-color: #C9453B;
